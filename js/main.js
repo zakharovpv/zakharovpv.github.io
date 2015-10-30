@@ -79,7 +79,18 @@ $(document).ready(function() {
 	      arrows: true,
 	      infinite: true,
 	      autoplay: false,
-	      dots:true
+	      dots:true,
+	      responsive: [
+    			{
+      			breakpoint: 1100,
+      			settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        dots: true
+      			}
+    			}
+  			]
 		  });
 		  $('.carousel2').slick({
 	      slidesToShow: 4,
@@ -87,7 +98,18 @@ $(document).ready(function() {
 	      arrows: true,
 	      infinite: true,
 	      autoplay: false,
-	      dots:true
+	      dots:true,
+	      responsive: [
+    			{
+      			breakpoint: 1100,
+      			settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 3,
+		        infinite: true,
+		        dots: true
+      			}
+    			}
+  			]
 		  });
 		  $('.carousel3').slick({
 	      slidesToShow: 4,
@@ -95,7 +117,17 @@ $(document).ready(function() {
 	      arrows: true,
 	      infinite: true,
 	      autoplay: true,
-	      dots:false
+	      dots:false,
+	      responsive: [
+    			{
+      			breakpoint: 1100,
+      			settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 1,
+		        infinite: true
+      			}
+    			}
+  			]
 		  }); // end of Slick
 
 		  $('.attestat-popup-link').magnificPopup({

@@ -280,7 +280,6 @@ ul.nav .navigation {
 	background-color: #19bd5d;
 	color: #fff;
 	padding-top: 0;
-  padding-left: 114px;
 }
 
 .section0-3 p {
@@ -288,9 +287,11 @@ ul.nav .navigation {
 	line-height: 28px;
 	font-weight: lighter;
 	margin-bottom: 40px;
+	padding-left: 55px;
 }
 
 .section0-3 .btn_freeconsult {
+	margin-left: 55px;
   font-size: 14px;
   letter-spacing: 2px;
   color: #fff;
@@ -319,7 +320,7 @@ ul.nav .navigation {
   height: 40px;
   width: 40px;
   position: relative;
-  left: 43%;
+  left: 50%;
   vertical-align: bottom;
 }
 
@@ -357,6 +358,7 @@ ul.nav .navigation {
 	background-color: #fff;
 	height: 390px;
 	width: 265px;
+	margin: auto;
 }
 
 .section1 .small {
