@@ -15,6 +15,7 @@
     src: url('./fonts/slick.eot');
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
+
 /* Arrows */
 .slick-prev,
 .slick-next
@@ -27,15 +28,14 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 36px;
+    height: 36px;
     margin-top: -10px;
     padding: 0;
 
     cursor: pointer;
 
-    color: #fff;
-    /*color: transparent;*/
+    color: transparent;
     border: none;
     outline: none;
     background: transparent;
@@ -54,22 +54,22 @@
 .slick-next:hover:before,
 .slick-next:focus:before
 {
-    opacity: 0.5;
+    opacity: 1;
 }
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before
 {
-    opacity: 0.25;
+    opacity: .25;
 }
 
 .slick-prev:before,
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 36px;
     line-height: 1;
 
-    opacity: 1;
+    opacity: .75;
     color: white;
 
     -webkit-font-smoothing: antialiased;
@@ -78,46 +78,38 @@
 
 .slick-prev
 {
-    left: -40px;
+    left: -50px;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -40px;
+    right: -50px;
     left: auto;
 }
 .slick-prev:before
 {
-    font-family: FontAwesome;
-    content: '\f104' ;
-    font-size: 40px;
+    content: '←';
 }
 [dir='rtl'] .slick-prev:before
 {
-    font-family: FontAwesome;
-    content: '\f105' ;
-    font-size: 40px;    
+    content: '→';
 }
 
 .slick-next
 {
-    right: -40px;
+    right: -50px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -40px;
+    left: -50px;
 }
 .slick-next:before
 {
-    font-family: FontAwesome;
-    content: '\f105' ;
-    font-size: 40px;
+    content: '→';
 }
 [dir='rtl'] .slick-next:before
 {
-    font-family: FontAwesome;
-    content: '\f104' ;
-    font-size: 40px;
+    content: '←';
 }
 
 /* Dots */

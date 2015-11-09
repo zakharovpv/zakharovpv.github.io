@@ -283,6 +283,7 @@ ul.nav .navigation {
 }
 
 .section0-3 p {
+	width: 550px;
 	font-size: 18px;
 	line-height: 28px;
 	font-weight: lighter;
@@ -348,6 +349,11 @@ ul.nav .navigation {
 	font-weight: lighter;
 	text-align: center;
 }
+
+.section1 .container.separator p {
+	width: 620px;
+	margin: auto;
+}	
 
 .separator {
 	text-align: center;
@@ -569,7 +575,7 @@ ul.nav .navigation {
 .carousel2 .slick-next:before,
 [dir='rtl'] .carousel2 .slick-prev:before,
 [dir='rtl'] .carousel2 .slick-next:before {
-	color: #19bd5d;
+	color: #bfbfbf;
 }
 
 .carousel2 .slick-prev,
@@ -635,9 +641,32 @@ ul.nav .navigation {
   height: 5%;
 }
 
+.carousel2 .slick-prev {
+  left: -40px;
+}
+
+[dir='rtl'] .carousel2  .slick-prev {
+  right: -40px;
+  left: auto;
+}
+
+.carousel2 .slick-next {
+  right: -40px;
+}
+
+[dir='rtl'] .carousel2 .slick-next {
+  right: auto;
+  left: -40px;
+}
 /*Section4 SlickSlider№3---------------------------------------------*/
 .section4 .container {
   width: 1200px;	
+}
+
+.section4 .container.separator p {
+  width: 620px;
+  margin-bottom: 25px;
+  margin-left: 0;
 }
 
 .section4 h2,
@@ -718,7 +747,7 @@ ul.nav .navigation {
 [dir='rtl'] .carousel3 .slick-prev:before,
 [dir='rtl'] .carousel3 .slick-next:before {
 	color: #19bd5d;
-	font-size: 35px;
+	font-size: 30px;
 }
 
 .carousel3 .slick-prev,
@@ -792,6 +821,11 @@ ul.nav .navigation {
 	text-align: left;
 }
 
+.section5 .container.separator p {
+  width: 1170px;
+  margin-bottom: 0px;
+}
+
 .section5 .separator {
 	text-align: left;
 }
@@ -814,11 +848,12 @@ ul.nav .navigation {
 	letter-spacing: 2px;
 }
 
-.section5 p.stage {
+.section5 .container.separator  p.stage {
 	display: inline-block;
-	margin-left: 5px;
+	padding-left: 5px;
 	font-size: 14px;
 	margin: 0;
+	width: 55px;
 }
 
 .container_for_map {
@@ -927,6 +962,22 @@ ul.nav .navigation {
   background-color: #ececec;
 }
 
-a:focus {
+a:focus,
+button:focus {
 	outline: none;
 }
+
+.main_menu_btn {
+	border: none;
+  color: #fff;
+	background-color: transparent;
+}
+
+.new_header .main_menu_btn {
+  color: #000;
+}
+
+.main_menu_btn .fa-bars {
+	font-size: 30px;
+}
+

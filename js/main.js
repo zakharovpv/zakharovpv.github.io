@@ -87,9 +87,30 @@ $(document).ready(function() {
 		        slidesToShow: 3,
 		        slidesToScroll: 1,
 		        infinite: true,
-		        dots: true
+		        dots: true,
+		        autoplay: true
       			}
-    			}
+    			},
+    			{
+      			breakpoint: 700,
+      			settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        dots: false,
+		        autoplay: true
+      			}
+    			},
+    			{
+      			breakpoint: 480,
+      			settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        dots: false,
+		        autoplay: true
+      			}
+    			}    			
   			]
 		  });
 		  $('.carousel2').slick({
@@ -108,6 +129,27 @@ $(document).ready(function() {
 		        infinite: true,
 		        dots: true
       			}
+    			},
+    			{
+      			breakpoint: 992,
+      			settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        dots: true,
+		        autoplay: true
+      			}
+    			},
+    			{
+      			breakpoint: 481,
+      			settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        arrows: true,
+		        dots: false,
+		        autoplay: true
+      			}
     			}
   			]
 		  });
@@ -125,6 +167,17 @@ $(document).ready(function() {
 		        slidesToShow: 3,
 		        slidesToScroll: 1,
 		        infinite: true
+      			}
+    			},
+    			{
+      			breakpoint: 400,
+      			settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        arrows: true,
+		        dots: false,
+		        autoplay: true
       			}
     			}
   			]
@@ -153,6 +206,17 @@ $(document).ready(function() {
 				});
 				return false;
 			}); // end of ajax form sending
+
+			// main_menu_btn
+			$('.main_menu_btn').click(function() {
+				$('#menu').slideToggle();
+				$('.navigation').click(function() {
+					$('#menu').slideUp();
+				});
+				$('.new_navigation').click(function() {
+					$('#menu').slideUp();
+				});				
+			}); // end of main_menu_btn
 
 	  } // end afterRender	
 

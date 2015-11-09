@@ -11,7 +11,24 @@
 	<meta name="description" content="" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="img/favicons/manifest.json">
+	<link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="libs/fullpage/jquery.fullpage.min.css" />
@@ -35,6 +52,7 @@
 					<a id="btn_hidden" class='btn_calling btn_form hidden' href='#callback'>ОБРАТНЫЙ ЗВОНОК</a>				
 				</div>
 				<div class="col-sm-6">
+					<button class="main_menu_btn hidden-md hidden-lg"><i class="fa fa-bars"></i></button>
 					<ul class="nav" id="menu">
 						<li data-menuanchor="1"><a href="#1" class="nav_li_a navigation">Преимущества</a></li>
 						<li data-menuanchor="2"><a href="#2" class="nav_li_a navigation">Услуги</a></li>
@@ -61,7 +79,7 @@
 			</div>
 			<div class="section0-3">
 				<div class="container">
-					<p>Мы - профессиональная специализированная компания,<br>оказывающая широкий спектр услуг по оценке имущества.<br>Оказываем качественные услуги и несем ответственность за<br> результат.</p>
+					<p>Мы - профессиональная специализированная компания, оказывающая широкий спектр услуг по оценке имущества. Оказываем качественные услуги и несем ответственность за результат.</p>
 					<a class="btn_freeconsult btn_form" href="#callback">ПОЛУЧИТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</a>
 				</div>
 				<div class="container arrow">
@@ -78,8 +96,8 @@
 				</div>
 				<div class="div-separator2"></div>					
 				<div class="container separator">
-					<img src="img/separator.png" alt="">
-					<p>Независимая оценка, проведенная оценщиками нашей организации,<br>поможет установить объективную стоимость любых объектов, для<br> которых требуется узнать их цену.</p>
+					<img src="img/separator.png" class="hide400px" alt="">
+					<p class="hide400px">Независимая оценка, проведенная оценщиками нашей организации, поможет установить объективную стоимость любых объектов, для которых требуется узнать их цену.</p>
 				</div>
 				<div class="div-separator3"></div>
 				<div class="container blocks">
@@ -87,32 +105,32 @@
 						<div class="wrapper1">
 							<img class="section1icon1" src="img/section2icon1.png" alt="">
 							<h5>СЕРТИФИЦИРОВАННЫЕ<br>СПЕЦИАЛИСТЫ</h5>
-							<img src="img/separator_small.png" alt="">
-							<p class="small">Услуги оценки, выполняются<br>лицензированными оценщиками,<br>аккредитованными в СРО и банка</p>
+							<img class="separator_small" src="img/separator_small.png" alt="">
+							<p class="small">Услуги оценки, выполняются лицензированными оценщиками, аккредитованными в СРО и банка</p>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-3 hide400px">
 						<div class="wrapper1">
-							<img class="section1icon1" src="img/section2icon1.png" alt="">
+							<img class="section1icon1" src="img/section2icon2.png" alt="">
 							<h5>СООТВЕТСТВУЮЩИЕ<br>СТАНДАРТАМ ОТЧЕТЫ</h5>
-							<img src="img/separator_small.png" alt="">
-							<p class="small">Мы гарантируем, что наш отчет<br>соответствует всем стандартам и<br>федеральному закону об оценке<br>№135, а также надлежаще<br>оформлен в соответствии с<br>действующим законодательством.</p>
+							<img class="separator_small" src="img/separator_small.png" alt="">
+							<p class="small">Мы гарантируем, что наш отчет соответствует всем стандартам и федеральному закону об оценке №135, а также надлежаще оформлен в соответствии с действующим законодательством.</p>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="wrapper1">
-							<img class="section1icon1" src="img/section2icon1.png" alt="">
+							<img class="section1icon1" src="img/section2icon3.png" alt="">
 							<h5>ЛЕГИТИМНОСТЬ<br>ОТЧЕТОВ</h5>
-							<img src="img/separator_small.png" alt="">
-							<p class="small">Наши отчеты легитимны<br>в большинстве финансово-<br>кредитных организаций.</p>
+							<img class="separator_small" src="img/separator_small.png" alt="">
+							<p class="small">Наши отчеты легитимны в большинстве финансово-кредитных организаций.</p>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="wrapper1">
-							<img class="section1icon1" src="img/section2icon1.png" alt="">
+							<img class="section1icon1" src="img/section2icon4.png" alt="">
 							<h5>СРОК ОЦЕНКИ ОТ 3-Х<br>ДНЕЙ</h5>
-							<img src="img/separator_small.png" alt="">
-							<p class="small">Производим расчет<br>всего за 3 дня!<br>И это правда! Скорость работы -<br>показатель профессионализма.</p>
+							<img class="separator_small" src="img/separator_small.png" alt="">
+							<p class="small">Производим расчет всего за 3 дня! И это правда! Скорость работы - показатель профессионализма.</p>
 						</div>
 					</div>
 				</div>
@@ -120,7 +138,7 @@
 		</div>
 		<div class="section section2">
 			<div class="helpforheader"></div>
-			<div class="container">
+			<div class="container car_container">
 				<div class="carousel1">
 				  <div class="slide1">
 				  	<div class="div-separator4"></div>
@@ -133,7 +151,7 @@
 					  	</div>
 				  	</div>
 				  	<div class="div-separator5"></div>
-				  	<a class="hrefsection2 btn_form" href="#callback">ПОДРОБНЕЕ</a>	
+				  	<a class="hrefsection2 btn_form hide400px" href="#callback">ПОДРОБНЕЕ</a>	
 				 	</div>
 				  <div class="slide2">
 				  	<div class="div-separator4"></div>
@@ -146,7 +164,7 @@
 					  	</div>
 				  	</div>
 				  	<div class="div-separator5"></div>
-				  	<a class="hrefsection2 btn_form" href="#callback">ПОДРОБНЕЕ</a>					  	
+				  	<a class="hrefsection2 btn_form hide400px" href="#callback">ПОДРОБНЕЕ</a>					  	
 				 	</div>
 				  <div class="slide3">
 				  	<div class="div-separator4"></div>
@@ -159,7 +177,7 @@
 					  	</div>
 				  	</div>
 				  	<div class="div-separator5"></div>
-				  	<a class="hrefsection2 btn_form" href="#callback">ПОДРОБНЕЕ</a>								  	
+				  	<a class="hrefsection2 btn_form hide400px" href="#callback">ПОДРОБНЕЕ</a>								  	
 				 	</div>
 				  <div class="slide4">
 				  	<div class="div-separator4"></div>
@@ -172,7 +190,7 @@
 					  	</div>
 				  	</div>
 				  	<div class="div-separator5"></div>
-				  	<a class="hrefsection2 btn_form" href="#callback">ПОДРОБНЕЕ</a>								  	
+				  	<a class="hrefsection2 btn_form hide400px" href="#callback">ПОДРОБНЕЕ</a>								  	
 				 	</div>
 				  <div class="slide1">
 				  	<div class="div-separator4"></div>
@@ -185,7 +203,7 @@
 					  	</div>
 				  	</div>
 				  	<div class="div-separator5"></div>
-				  	<a class="hrefsection2 btn_form" href="#callback">ПОДРОБНЕЕ</a>	
+				  	<a class="hrefsection2 btn_form hide400px" href="#callback">ПОДРОБНЕЕ</a>	
 				 	</div>
 				  <div class="slide2">
 				  	<div class="div-separator4"></div>
@@ -198,7 +216,7 @@
 					  	</div>
 				  	</div>
 				  	<div class="div-separator5"></div>
-				  	<a class="hrefsection2 btn_form" href="#callback">ПОДРОБНЕЕ</a>					  	
+				  	<a class="hrefsection2 btn_form hide400px" href="#callback">ПОДРОБНЕЕ</a>					  	
 				 	</div>
 				  <div class="slide3">
 				  	<div class="div-separator4"></div>
@@ -211,7 +229,7 @@
 					  	</div>
 				  	</div>
 				  	<div class="div-separator5"></div>
-				  	<a class="hrefsection2 btn_form" href="#callback">ПОДРОБНЕЕ</a>								  	
+				  	<a class="hrefsection2 btn_form hide400px" href="#callback">ПОДРОБНЕЕ</a>								  	
 				 	</div>
 				  <div class="slide4">
 				  	<div class="div-separator4"></div>
@@ -224,7 +242,7 @@
 					  	</div>
 				  	</div>
 				  	<div class="div-separator5"></div>
-				  	<a class="hrefsection2 btn_form" href="#callback">ПОДРОБНЕЕ</a>								  	
+				  	<a class="hrefsection2 btn_form hide400px" href="#callback">ПОДРОБНЕЕ</a>								  	
 				 	</div>
 				  <div class="slide1">
 				  	<div class="div-separator4"></div>
@@ -237,7 +255,7 @@
 					  	</div>
 				  	</div>
 				  	<div class="div-separator5"></div>
-				  	<a class="hrefsection2 btn_form" href="#callback">ПОДРОБНЕЕ</a>	
+				  	<a class="hrefsection2 btn_form hide400px" href="#callback">ПОДРОБНЕЕ</a>	
 				 	</div>
 				  <div class="slide2">
 				  	<div class="div-separator4"></div>
@@ -250,7 +268,7 @@
 					  	</div>
 				  	</div>
 				  	<div class="div-separator5"></div>
-				  	<a class="hrefsection2 btn_form" href="#callback">ПОДРОБНЕЕ</a>					  	
+				  	<a class="hrefsection2 btn_form hide400px" href="#callback">ПОДРОБНЕЕ</a>					  	
 				 	</div>
 				  <div class="slide3">
 				  	<div class="div-separator4"></div>
@@ -263,7 +281,7 @@
 					  	</div>
 				  	</div>
 				  	<div class="div-separator5"></div>
-				  	<a class="hrefsection2 btn_form" href="#callback">ПОДРОБНЕЕ</a>								  	
+				  	<a class="hrefsection2 btn_form hide400px" href="#callback">ПОДРОБНЕЕ</a>								  	
 				 	</div>
 				  <div class="slide4">
 				  	<div class="div-separator4"></div>
@@ -276,7 +294,7 @@
 					  	</div>
 				  	</div>
 				  	<div class="div-separator5"></div>
-				  	<a class="hrefsection2 btn_form" href="#callback">ПОДРОБНЕЕ</a>								  	
+				  	<a class="hrefsection2 btn_form hide400px" href="#callback">ПОДРОБНЕЕ</a>						
 				 	</div>			 	
 				</div>
 			</div>	
@@ -288,9 +306,9 @@
 					<h2>НАШИ КЛИЕНТЫ И ОТЗЫВЫ</h2>
 				</div>
 				<div class="div-separator2"></div>					
-				<div class="container separator">
+				<div class="container separator hide400px">
 					<img src="img/separator.png" alt="">
-					<p>Независимая оценка, проведенная оценщиками нашей организации,<br>поможет установить объективную стоимость любых объектов, для<br> которых требуется узнать их цену.</p>
+					<p>Независимая оценка, проведенная оценщиками нашей организации, поможет установить объективную стоимость любых объектов, для которых требуется узнать их цену.</p>
 				</div>
 				<div class="div-separator3"></div>
 				<div class="container blocks">
@@ -300,84 +318,84 @@
 							<h5>АВТОСАЛОН FIAT</h5>
 							<img class="separator_sml" src="img/separator_small.png" alt="">
 							<p class="small">Определение рыночной стоимости<br>комплекса имущества</p>
-							<a class="hrefsection2" href="http://www.google.com/">ПОДРОБНЕЕ</a>								  		
+							<a class="hrefsection2 hide400px" href="http://www.google.com/">ПОДРОБНЕЕ</a>								  		
 						</div>
 				  	<div class="slide2">
 							<div class="wrapper_for_icon"></div>	
 							<h5>АЭРОФЛОТ</h5>
 							<img class="separator_sml" src="img/separator_small.png" alt="">
 							<p class="small">Определение рыночной стоимости<br>комплекса имущества</p>	  
-							<a class="hrefsection2" href="http://www.google.com/">ПОДРОБНЕЕ</a>
+							<a class="hrefsection2 hide400px" href="http://www.google.com/">ПОДРОБНЕЕ</a>
 						</div>
 				  	<div class="slide3">
 				  		<div class="wrapper_for_icon"></div>
 							<h5>ВОДКА FINLANDIA</h5>
 							<img class="separator_sml" src="img/separator_small.png" alt="">
 							<p class="small">Оценка специалистами качества<br>продукции в ёмкостях 0.5, 0.7, и 1 л.</p>	  		
-							<a class="hrefsection2" href="http://www.google.com/">ПОДРОБНЕЕ</a>
+							<a class="hrefsection2 hide400px" href="http://www.google.com/">ПОДРОБНЕЕ</a>
 						</div>
 				  	<div class="slide4">
 							<div class="wrapper_for_icon"></div>
 							<h5>АВТОВАЗ</h5>
 							<img class="separator_sml" src="img/separator_small.png" alt="">
 							<p class="small">Предпродажная оценка<br>автомобиля ВАЗ-2107</p>	  		
-							<a class="hrefsection2" href="http://www.google.com/">ПОДРОБНЕЕ</a>
+							<a class="hrefsection2 hide400px" href="http://www.google.com/">ПОДРОБНЕЕ</a>
 						</div>						
 				  	<div class="slide1">
 							<div class="wrapper_for_icon"></div>
 							<h5>АВТОСАЛОН FIAT</h5>
 							<img class="separator_sml" src="img/separator_small.png" alt="">
 							<p class="small">Определение рыночной стоимости<br>комплекса имущества</p>
-							<a class="hrefsection2" href="http://www.google.com/">ПОДРОБНЕЕ</a>								  		
+							<a class="hrefsection2 hide400px" href="http://www.google.com/">ПОДРОБНЕЕ</a>								  		
 						</div>
 				  	<div class="slide2">
 							<div class="wrapper_for_icon"></div>	
 							<h5>АЭРОФЛОТ</h5>
 							<img class="separator_sml" src="img/separator_small.png" alt="">
 							<p class="small">Определение рыночной стоимости<br>комплекса имущества</p>	  
-							<a class="hrefsection2" href="http://www.google.com/">ПОДРОБНЕЕ</a>
+							<a class="hrefsection2 hide400px" href="http://www.google.com/">ПОДРОБНЕЕ</a>
 						</div>
 				  	<div class="slide3">
 				  		<div class="wrapper_for_icon"></div>
 							<h5>ВОДКА FINLANDIA</h5>
 							<img class="separator_sml" src="img/separator_small.png" alt="">
 							<p class="small">Оценка специалистами качества<br>продукции в ёмкостях 0.5, 0.7, и 1 л.</p>	  		
-							<a class="hrefsection2" href="http://www.google.com/">ПОДРОБНЕЕ</a>
+							<a class="hrefsection2 hide400px" href="http://www.google.com/">ПОДРОБНЕЕ</a>
 						</div>
 				  	<div class="slide4">
 							<div class="wrapper_for_icon"></div>
 							<h5>АВТОВАЗ</h5>
 							<img class="separator_sml" src="img/separator_small.png" alt="">
 							<p class="small">Предпродажная оценка<br>автомобиля ВАЗ-2107</p>	  		
-							<a class="hrefsection2" href="http://www.google.com/">ПОДРОБНЕЕ</a>
+							<a class="hrefsection2 hide400px" href="http://www.google.com/">ПОДРОБНЕЕ</a>
 						</div>						
 				  	<div class="slide1">
 							<div class="wrapper_for_icon"></div>
 							<h5>АВТОСАЛОН FIAT</h5>
 							<img class="separator_sml" src="img/separator_small.png" alt="">
 							<p class="small">Определение рыночной стоимости<br>комплекса имущества</p>
-							<a class="hrefsection2" href="http://www.google.com/">ПОДРОБНЕЕ</a>								  		
+							<a class="hrefsection2 hide400px" href="http://www.google.com/">ПОДРОБНЕЕ</a>								  		
 						</div>
 				  	<div class="slide2">
 							<div class="wrapper_for_icon"></div>	
 							<h5>АЭРОФЛОТ</h5>
 							<img class="separator_sml" src="img/separator_small.png" alt="">
 							<p class="small">Определение рыночной стоимости<br>комплекса имущества</p>	  
-							<a class="hrefsection2" href="http://www.google.com/">ПОДРОБНЕЕ</a>
+							<a class="hrefsection2 hide400px" href="http://www.google.com/">ПОДРОБНЕЕ</a>
 						</div>
 				  	<div class="slide3">
 				  		<div class="wrapper_for_icon"></div>
 							<h5>ВОДКА FINLANDIA</h5>
 							<img class="separator_sml" src="img/separator_small.png" alt="">
 							<p class="small">Оценка специалистами качества<br>продукции в ёмкостях 0.5, 0.7, и 1 л.</p>	  		
-							<a class="hrefsection2" href="http://www.google.com/">ПОДРОБНЕЕ</a>
+							<a class="hrefsection2 hide400px" href="http://www.google.com/">ПОДРОБНЕЕ</a>
 						</div>
 				  	<div class="slide4">
 							<div class="wrapper_for_icon"></div>
 							<h5>АВТОВАЗ</h5>
 							<img class="separator_sml" src="img/separator_small.png" alt="">
 							<p class="small">Предпродажная оценка<br>автомобиля ВАЗ-2107</p>	  		
-							<a class="hrefsection2" href="http://www.google.com/">ПОДРОБНЕЕ</a>
+							<a class="hrefsection2 hide400px" href="http://www.google.com/">ПОДРОБНЕЕ</a>
 						</div>						
 					</div>
 				</div>
@@ -391,13 +409,13 @@
 				</div>
 				<div class="div-separator2"></div>					
 				<div class="container separator">
-					<img src="img/separator.png" alt="">
-					<p>ООО &#171;Бизнес-Оценка&#187; - сертифицированная профессиональная<br>компания, специализирующаяся на предоставлении услуг в<br>области оценки. Осуществляет свою деятельность с 2007 года, и<br>зарекомендовала себя как надежный партнер. Наша компания<br>имеет большой опыт проведения судебных экспертиз и оценки<br>залоговых активов для банков.</p>
+					<img class="hide400px" src="img/separator.png" alt="">
+					<p>ООО &#171;Бизнес-Оценка&#187; - сертифицированная профессиональная компания, специализирующаяся на предоставлении услуг в области оценки. Осуществляет свою деятельность с 2007 года, и зарекомендовала себя как надежный партнер. Наша компания имеет большой опыт проведения судебных экспертиз и оценки залоговых активов для банков.</p>
 				</div>
-				<div class="container">
-					<a class="attestat-popup-link" href="img/attestat_1.png"><img src="img/attestat_1.png" alt=""></a>
-					<a class="attestat-popup-link" href="img/attestat_1.png"><img src="img/attestat_1.png" alt=""></a>
-					<a class="attestat-popup-link" href="img/attestat_1.png"><img src="img/attestat_1.png" alt=""></a>
+				<div class="container center992">
+					<a class="attestat-popup-link hide400px" href="img/attestat_1.png"><img src="img/attestat_1.png" alt=""></a>
+					<a class="attestat-popup-link hide400px" href="img/attestat_1.png"><img src="img/attestat_1.png" alt=""></a>
+					<a class="attestat-popup-link hide480px" href="img/attestat_1.png"><img src="img/attestat_1.png" alt=""></a>
 				</div>
 				<div class="div-separator4"></div>
 				<div class="container container_for_rogulin">	
@@ -445,12 +463,12 @@
 					</div>
 					<div class="div-separator2"></div>					
 					<div class="container separator">
-						<img src="img/separator.png" alt="">
-						<p>Адрес:</p>
+						<img class="hide400px" src="img/separator.png" alt="">
+						<p class="hide400px">Адрес:</p>
 						<h5 class="above_stage">214004, Г. СМОЛЕНСК, УЛ. КИРОВА, Д. 22Б, ОФ. 404</h5><p class="stage">(5 этаж)</p>
-						<p>Телефон:</p>
+						<p class="hide400px">Телефон:</p>
 						<h5>+7 (4812) 44-56-67</h5>
-						<p>E-mail:</p>
+						<p class="hide400px">E-mail:</p>
 						<h5>SEREZHA@MAIL.RU</h5>
 					</div>
 					<div id="map"></div>
